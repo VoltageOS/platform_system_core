@@ -77,6 +77,7 @@
 #include "subcontext.h"
 #include "system/core/init/property_service.pb.h"
 #include "util.h"
+#include "vendor_init.h"
 
 static constexpr char APPCOMPAT_OVERRIDE_PROP_FOLDERNAME[] =
         "/dev/__properties__/appcompat_override";
