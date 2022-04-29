@@ -50,7 +50,7 @@ cc_binary {
 
     init_rc: ["llkd.rc"],
     product_variables: {
-        eng: {
+        debuggable: {
             init_rc: ["llkd-debuggable.rc"],
 	},
     },
